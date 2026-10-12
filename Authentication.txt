@@ -1,0 +1,20 @@
+MODULE 1: User Authentication
+Authentication vs Authorization
+Step 1:
+Registration
+    UserID - auto
+    Email : OTP verification and validate(for 1st time and password forget will use OTP)
+    Password : User defined (check for strong password)
+Validation of email, password should be done across entire system i.e. entire client-server architecture 
+middleware is like a wall btwn frontend and server which checks the data if there is any malicious data that has been sent from the frontend. 
+Step 2:
+Login : After registration redirect to login page
+        Validate credentials with database 
+        also has forget password button
+Step 3:
+Dashboard
+----------------------------------------------------------------------------------------------
+Client Server Architecture: 1. Node Client Node
+                            2. Middleware
+                            3. Server
+                            4. Database
