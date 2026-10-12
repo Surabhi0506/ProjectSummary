@@ -2,11 +2,19 @@ MODULE 1: User Authentication
 Authentication vs Authorization
 Step 1:
 Registration
+steps: fill info
+       frontend verification
+
     UserID - auto
     Email : OTP verification and validate(for 1st time and password forget will use OTP)
     Password : User defined (check for strong password)
+Middleware is like a wall btwn frontend and server which checks the data if there is any malicious data that has been sent from the frontend.
+API Working:
+1. Check if user alr exists or not. If alr exists then don't allow re-registration. *SLUG in database: boolean type that will validate in 0 and 1 / true or false
+SLUG VALUE will be false before verification
 Validation of email, password should be done across entire system i.e. entire client-server architecture 
-middleware is like a wall btwn frontend and server which checks the data if there is any malicious data that has been sent from the frontend. 
+* reddis will store otp table for verification 
+
 Step 2:
 Login : After registration redirect to login page
         Validate credentials with database 
@@ -18,3 +26,4 @@ Client Server Architecture: 1. Node Client Node
                             2. Middleware
                             3. Server
                             4. Database
+
