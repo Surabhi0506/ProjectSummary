@@ -1,0 +1,32 @@
+Project:
+Step1: Problem Statement
+
+Step2: Define Targeted user. Whom are we selling this project actually. For us it's cyber security company. They will be absolute decision maker of our problem.
+       Sub-user: SOC analyst. They will be the actual users of our website.
+	Basic and easy on eyes UI according to our users.
+	User requirement are noted. Accordingly rest planned.
+
+Step3:
+Problem -> research -> design (er dig, ui/ux, api design for backend, DATABASE(table constraints, keys, table join))
+Database design 
+//user tables are created first (UUID datatype)
+//admin tables are not created
+//use ORM for database
+// email verification. if we change email verify email is present with user. "middlewear" can be used for authentication .user authentication and authentication. (google OR documentation)for authentication learn 'jwt'
+//role based access control(dropdown list for role)... 
+//registered user cannot register two accounts from same number.
+//forget password
+//session activity for user once registered
+//user flow dig, use case dig, er dig
+//system design(architecture diagram)
+Frontend design
+//search reference for our frontend - dribble, behance, mobbing, award, (domain competitors)
+Documentation
+pliz maintain a project documentation and maintain it in readme.md on skilli. technical documentation
+
+Step4: Development
+
+Step5: Deployment
+
+
+#difference between put and patch. rules of this(get, post, put, patch, delete)
